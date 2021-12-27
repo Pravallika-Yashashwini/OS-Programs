@@ -47,7 +47,8 @@ else
 
 {
 
-printf("\nFILE NAME START BLOCK NO OF BLOCKS BLOCKS OCCUPIED\n"); printf("\n%s\t\t%d\t\t%d\t",ft[i].name,ft[i].sb,ft[i].nob); for(j=0;j<ft[i].nob;j++)
+printf("\nFILE NAME START BLOCK NO OF BLOCKS BLOCKS OCCUPIED\n");
+printf("\n%s\t\t%d\t\t%d\t",ft[i].name,ft[i].sb,ft[i].nob); for(j=0;j<ft[i].nob;j++)
 
 printf("%d, ",ft[i].sb+j);
 
